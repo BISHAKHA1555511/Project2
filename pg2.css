@@ -1,133 +1,163 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
-
-body {
+.heading {
     display: flex;
-    height: 100vh;
-}
-
-.container {
-    display: flex;
-    width: 100%;
-}
-
-.sidebar {
-    width: 250px;
-    background-color: #9B6B9E;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    padding: 15px;
-}
-
-.sidebar .logo {
-    font-size: 36px;
-    text-align: center;
-    padding: 10px 0;
-    border-bottom: 2px solid white;
-}
-
-.sidebar ul {
-    list-style-type: none;
-    padding: 0;
-    margin-top: 20px;
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-}
-
-.sidebar ul li {
-    margin: 10px 0;
-}
-
-.sidebar ul li a {
-    color: white;
-    text-decoration: none;
-    display: block;
-    padding: 10px;
-    border-radius: 4px;
-    transition: background-color 0.3s ease;
-}
-
-.sidebar ul li a:hover, .sidebar ul li.end a:hover {
-    background-color: #715e75;
-}
-
-.sidebar ul li a.active {
-    background-color: #715e75;
-}
-
-.sidebar ul li.end {
-    margin-top: auto;
-    margin-bottom: 10px;
-}
-
-.main-content {
-    flex-grow: 1;
-    background-color: #f5f5f5;
-    padding: 20px;
-    overflow-y: auto;
-}
-
-.navbar {
-    display: flex;
+    /* align-items: baseline; */
+    background-color: #BFF6C3;
+    /* position: fixed; */
     justify-content: space-between;
-    align-items: center;
-    background-color: #D9D9D9;
-    padding: 10px 20px;
-    border-radius: 5px;
 }
 
-.navbar h1 {
-    font-size: 24px;
-    color: #9B6B9E;
+.heading1 {
+    display: flex;
 }
 
-.search-bar {
-    position: relative;
+#customers-heading {
+    font-family: serif;
+    font-size: 70px;
+    margin: 0px;
 }
 
-.search-bar input {
-    padding: 5px 10px;
-    border: 2px solid #9B6B9E;
-    border-radius: 5px;
+/* .search-container {
+    width: 1000px;
+} */
+.search-container {
+    padding-top: 24.95px;
+    padding-right: 30px;
 }
 
-.section {
-    margin: 20px 0;
-    padding: 20px;
-    background-color: white;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+#input {
+    width: 300px; 
+    height: 25px;
+    border-radius: 10px ;
 }
 
-.section h2 {
-    margin-bottom: 10px;
-    color: #333;
+#input:hover {
+    background-color: rgb(232, 229, 229);
 }
 
-.table {
-    width: 100%;
+#search-button { 
+    width: auto;
+    height: 30px;
+    border-radius: 10px ;
+}
+
+#search-button:hover {
+    background-color: rgb(206, 193, 193);
+}
+
+/* .e-book-logo:hover {
+
+} */
+
+/* .side-bar1 ,.my-account{
+    text-align: center;
+    width: 25%;
+    background-color: #BFF6C3;
+
+} */
+
+.customer , .department ,.media ,.account ,.home{
+    font-size: 30px;
+    /* text-align: center; */
+    color: black;
+    text-decoration: none;
+}
+.cust {
+    background-color: #6ed673;
+    border-radius: 10px;
+}
+/* .hm {
+    background-color: #6ed673;
+    border-radius: 10px;
+} */
+.cust:hover {
+    background-color: #6ed673;
+    border-radius: 10px;
+}
+.dept:hover {
+    background-color: #ACE1AF;
+    border-radius: 10px;
+}
+.med:hover {
+    background-color: #ACE1AF;
+    border-radius: 10px;
+}
+
+.heading:hover {
+    background-color: #ACE1AF;
+    border-radius: 10px;
+}
+
+.acct:hover {
+    background-color: #ACE1AF;
+    border-radius: 10px;
+}
+
+.side-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 1080px;
+    background-color: #BFF6C3;
+    width: 75%;
+}
+
+.content {
+    display: flex;
+}
+
+table {
     border-collapse: collapse;
-    margin-bottom: 20px;
+    height: 250px;
+    width: 850px;
 }
 
-.table th, .table td {
-    border: 1px solid #ddd;
-    padding: 8px;
+td,th {
+    text-align: center;
 }
 
-.table th {
-    background-color: #f2f2f2;
-    color: #333;
-    text-align: left;
+.cust-table {
+    background-color: aquamarine;
 }
-.sidebar .logo img {
-    display: block;
-    margin: 0 auto;
-    padding: 10px 0;
+
+table {
+    height: 1000px;
+    width: 1000px;
+}
+.next-bar {
+    display: flex;
+    margin-top: 20px;
+}
+.next{
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+}
+.main {
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.prev {
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    margin-left: 380px;
+    margin-right: 10px;
+} 
+
+button {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(5, 241, 249);
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+th:hover {
+    background-color: #42e7b0;
+}
+
+td:hover {
+    background-color: #0aac76;
 }
