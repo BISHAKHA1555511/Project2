@@ -2,58 +2,158 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="./pi6.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Departments</title>
-    <link rel="stylesheet" href="pg3.css">
+    <link rel="stylesheet" href="./pg3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <div class="container">
-        <div class="sidebar">
-            <div class="logo">
-                <img src="Media Cell 1.png" alt="Company Logo" style="width: 50px; height: auto;">
-
+    <header>
+        <div class="heading">
+            <div class="heading1">
+                <a href="./pg1.html"><img src="./pi1.jpg" style="width: 80px;height: 80px;" class="workspace"></a>
+                <h1 id="workspace-heading">Workspace</h1>
             </div>
-            <ul>
-                <li><a href="pg1.html">Home</a></li>
-                <li><a href="pg2.html">Customers</a></li>
-                <li><a href="pg3.html" class="active">Departments</a></li>
-                <li><a href="pg4.html">Media</a></li>
-                <li class="end"><a href="pg5.html">My Account</a></li>
-            </ul>
+            <div class="search-container">
+                <form action="/search_page.php">
+                  <input type="text" placeholder="Search in home" name="search" id="input">
+                  <button type="submit" id="search-button"><i class="fas fa-search"></i></button>
+                </form>
+              </div>
+            </div>
         </div>
-        <div class="main-content">
-            <div class="navbar">
-                <h1>Workspace</h1>
-                <div class="search-bar">
-                    <input type="text" placeholder="Search in Departments">
+        <div class="content">
+            <div class="side-bar">
+                <div class="side-bar1">
+                    <div class="hm"><a href="./pg1.html" class="home" ><img src="./pi2.jpg" style="width: 70px; height: 70px;">Home</a><br></div>
+                    <div class="cust"><a href="./pg2.html" class="customer" ><img src="./pi3.png" style="width: 70px; height: 70px;">Customer</a><br></div>
+                    <div class="dept"><a href="./pg3.html" class="department"><img src="./pi6.png" style="width: 70px; height: 70px;">Departments</a><br></div>
+                    <div class="med"><a href="./pg4.html" class="media"><img src="./pi8.png" style="width: 70px; height: 70px;">Media</a></div>
+                </div>   
+                <div class="my-account">
+                    <div class="acct"><a href="./pg5.html" class="account"><img src="./pi9.png" style="width: 70px; height: 70px;">My Account</a></div>
                 </div>
             </div>
-            <div class="section">
-                <h2>Departments</h2>
-                <table class="table">
-                    <thead>
+            <div class="right-side">
+                <div class="dept-table">
+                    <table border="1" bordercolor="black">
                         <tr>
                             <th>Department ID</th>
                             <th>Department Incharge</th>
                             <th>Name</th>
                             <th>Size</th>
-                            <th>Total Media Size</th>
+                            <th>Tottal media size</th>
                         </tr>
-                    </thead>
-                    <tbody>
                         <tr>
                             <td>JRYT456</td>
-                            <td>UHD5G</td>
+                            <td>UHDSG</td>
                             <td>JOHN</td>
                             <td>23</td>
                             <td>2 GB</td>
                         </tr>
-                        <!-- Add other rows similarly -->
-                    </tbody>
-                </table>
+                        <tr>
+                            <td>JHSAG636</td>
+                            <td>ASDFJ</td>
+                            <td>JANE</td>
+                            <td>45</td>
+                            <td>0.4 GB</td>
+                        </tr>
+                        <tr>
+                            <td>ASJHSA77</td>
+                            <td>SAFEF</td>
+                            <td>BOB</td>
+                            <td>76</td>
+                            <td>200 GB</td>
+                        </tr>
+                        <tr>
+                            <td>KSAHKJ366</td>
+                            <td>AFEEE</td>
+                            <td>MARY</td>
+                            <td>87</td>
+                            <td>50 GB</td>
+                        </tr>
+                        <tr>
+                            <td>SAKJHD35</td>
+                            <td>REYER</td>
+                            <td>KARAN</td>
+                            <td>76</td>
+                            <td>45 GB</td>
+                        </tr>
+                        <tr>
+                            <td>KKHUASU33</td>
+                            <td>HJHGF</td>
+                            <td>CHRISSY</td>
+                            <td>78</td>
+                            <td>500 GB</td>
+                        </tr>
+                        <tr>
+                            <td> </td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="next-bar">
+                    <div class="prev"><button type="submit" href="./previous.page"><b><</b></button></div>
+                    <div class="main"><button type="submit"><b>1</b></button></div>
+                    <div class="next"><button type="submit" href="./next.page"><b>></b></button></div>
+                </div>
             </div>
         </div>
-    </div>
-    <script src="script.js"></script>
+    </header>
+    <main></main>
+    <footer></footer>      
 </body>
 </html>
